@@ -1,0 +1,47 @@
+/*Estilo da pagina index.html*/
+
+.container{
+ flex-flow: row;
+ display: flex;
+ justify-content: center;
+ font-size:100%; color: white; font-family: Arial, Helvetica, sans-serif;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Titulo{
+    font-size:50px; color: white;font-family: Arial, Helvetica, sans-serif; text-align:center;
+}
+
+body {
+    background-image: url("imagens/Racionais.png");
+    background-size: cover;
+  }
+
+.Contato{
+    font-size:250%; background-colorrgb(221, 160, 173)m; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; text-align:center;
+}
+
+.Localizacao{
+    font: size 50px;; background-colorrgb(221, 160, 173)m; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; text-align:center;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color: rgb(171, 158, 255);
+}
+/*Estilo da pagina index.html*/
